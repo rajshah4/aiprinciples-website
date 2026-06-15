@@ -20,6 +20,18 @@ npm run docs:build
 npm run docs:preview
 ```
 
+## Making a change
+
+Edit the markdown in `docs/`, preview locally with `npm run docs:dev`, then commit and push to `main`:
+
+```bash
+git add docs/
+git commit -m "Describe the change"
+git push
+```
+
+There is no separate publish step. Pushing to `main` triggers the deploy below. Run `npm run docs:build` first if you want to confirm the build is clean before pushing, which matters for pages that embed raw HTML (like the video embeds in `resources.md`).
+
 ## Deploy
 
 Pushes to `main` trigger `.github/workflows/pages.yml`, which builds the site and deploys to GitHub Pages.
@@ -49,9 +61,9 @@ docs/
     CNAME              aiframer.dev
   index.md             Home
   why-framing.md       The cost of bad framing
-  goats.md             The GOATS Loop walkthrough
-  resources.md         Canvas, checklists, videos, worked examples
-  teaching.md          Maven cohort and other offerings
+  framework.md         The framework and the GOATS Loop walkthrough
+  resources.md         Worksheet, webinars, talks and videos
+  course.md            Maven cohort and other offerings
 ```
 
 The design doc for this site lives in the private `aiprinciples` repo at `SITE_DESIGN.md`.

@@ -26,6 +26,34 @@ Pairs directly with the [Diagnose stage of the framework](/framework#diagnose).
 
 [Watch on Maven →](https://maven.com/p/f7fd21/going-beyond-ai-evals-diagnose-and-decide)
 
+### Talks and videos
+
+Recorded talks, free on YouTube.
+
+#### Framing AI Problems with the GOATS Loop
+
+A walkthrough of the GOATS Loop, the five-step process for framing an AI problem before you build: Goal, Operating Assumptions, Alternatives, Trade-offs, Signals. This is the backbone of the course.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
+  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/fuVZ0aXxQcI" title="Framing AI Problems with the GOATS Loop" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+#### Reframing Fast Attention
+
+A talk on the fast-attention work and how reframing the problem changes the approach.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
+  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/Y651GqBff74" title="Reframing Fast Attention" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+#### How AI is Getting Priced
+
+A talk on how AI products and usage are getting priced, and what that means for how you scope a project.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
+  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/v1ccFMFvupg" title="How AI is Getting Priced" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## In the cohort
 
 The four-week Maven cohort goes deeper than the public material can. Included:
