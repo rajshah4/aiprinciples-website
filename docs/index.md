@@ -49,6 +49,6 @@ If you've shipped an AI project, you already know the initial framing was the ea
 
 The course covers framing across traditional ML, GenAI, and agents, with worked projects for each. The three stages are the same in every case. The strategies inside each stage are not. I bring specific strategies for each class, drawn from years of working on AI projects across all three. [See how it cuts across all of AI →](/framework#across-ml-genai-and-agents)
 
-The Maven cohort runs four lessons over four weeks: the problem, the loop, the diagnosis, the pivot. If this piques your interest, feel free to reach out and chat more.
+The Maven cohort runs four lessons over four weeks: the problem, the loop, the diagnosis, the pivot. **The next cohort runs September 2026, and early-bird pricing is open now.** If this piques your interest, feel free to reach out and chat more.
 
 [See the Maven cohort →](/course)
