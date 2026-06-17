@@ -2,7 +2,7 @@
 
 The course publishes some of its material publicly. The cohort goes deeper.
 
-## Free, no signup
+## Free
 
 ### The AI Framing Worksheet
 
