@@ -11,6 +11,7 @@ export default defineConfig({
       { text: "Why framing", link: "/why-framing" },
       { text: "Framework", link: "/framework" },
       { text: "Resources", link: "/resources" },
+      { text: "Influences", link: "/influences" },
       { text: "Course", link: "/course" },
     ],
     socialLinks: [
