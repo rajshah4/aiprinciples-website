@@ -52,3 +52,11 @@ The course covers framing across traditional ML, GenAI, and agents, with worked 
 The Maven cohort runs four lessons over four weeks: the problem, the loop, the diagnosis, the pivot. **The next cohort runs September 2026, and early-bird pricing is open now.** If this piques your interest, feel free to reach out and chat more.
 
 [See the Maven cohort →](/course)
+
+## What students say
+
+> Rajiv brings rigor and relevance together, while avoiding the AI hype and focuses the course on helping you frame problems in a way that make them suitable for agents and then evaluating performance and also deciding when to discontinue projects. Strongly recommend.
+>
+> — **Vishal Sachdev**, Professor, University of Illinois at Urbana-Champaign
+
+The first cohort rated the course **5.0 on Maven**. [Read more reviews →](/course#what-students-say)
