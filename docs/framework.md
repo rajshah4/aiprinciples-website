@@ -44,6 +44,8 @@ Does the metric track what you actually care about? The number you optimize and 
 
 The benchmark and the user experience can also measure completely different things. Galactica's benchmarks looked great. Users surfaced the failure in seventy-two hours. The move is to keep checking the metric still tracks the business outcome, and to wire in user-experience signals the moment the model-side number stops moving with what the business sees.
 
+Metrics come in three layers. Model metrics (AUC, RMSE, retrieval accuracy) tell you the model works. Product metrics (revenue, retention, resolved tickets) tell you the business feels it. System metrics (latency, throughput, cost) tell you it is affordable to run. You can be green on all three and still be wrong. The number to watch is not any single layer. It is whether the model metric still moves the product metric. When the model metric climbs and the product metric sits flat, you optimized the wrong thing, and you miss it entirely if you only track one layer.
+
 Diagnostics is the half of the course that product courses do not cover at all.
 
 ## 3. Reframe

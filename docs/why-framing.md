@@ -32,9 +32,17 @@ Most courses on framing AI projects are product management courses adapted for A
 
 What a product course will not teach you is that the bottleneck for attention is memory bandwidth, or that an accurate privacy-policy chatbot can hit every metric and still be the wrong product. Those are framing decisions about the technical and human system around the model, and they are where AI projects are won or lost. A product course teaches you to write a clear PRD for a chatbot. It will not teach you why the chatbot was the wrong thing to build.
 
+## Different from system design
+
+Product framing sits upstream of this course. ML system design sits downstream. A system design course teaches you how to build and serve the model once you know what you are building. That work is necessary, and this course does not replace it. It just doesn't tell you what to build, or what to do when the first version doesn't work.
+
+With system design the frame stays fixed: the problem shape, the atomic unit, the autonomy level, the metric you chose. All of it is assumed settled the day the design is done. AI projects don't work that way. The first design is a hypothesis, and it is often wrong. This course treats it as experimental from the start and gives you a systematic way to handle that: diagnose what is actually breaking, then decide whether to persist, pivot, or stop.
+
 ## Applies generally
 
-The two stories are about as far apart as AI gets. One is a CUDA kernel with no users; the other is a customer product that was nothing but users. The framing question carried across both anyway: what is this actually for, and what is the real constraint. That question does not care whether you are working on traditional ML, GenAI, or agents. The tools inside the answer change every year. The question does not.
+The two stories are about as far apart as AI gets. One is a CUDA kernel with no users; the other is a customer product that was nothing but users. The framing question carried across both anyway: what is this actually for, and what is the real constraint. Framing is universal across all of AI whether it's traditional ML, GenAI, or agents. 
+
+The AI tools may change every year, the process for building successful AI projects doesn't change. 
 
 [See how the strategies change per class →](/framework#across-ml-genai-and-agents)
 
