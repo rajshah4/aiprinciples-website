@@ -35,3 +35,27 @@ Drafts for promoting the AI Problem Framing course. Not published to the site.
 > It never retrains the frame: the problem shape, the atomic unit, the metric you chose. Those get assumed correct at design time.
 >
 > In production that's the half that breaks. My course is the second loop: persist, pivot, or stop.
+
+---
+
+## I cut almost half the course (the reboot)
+
+**Angle:** build-in-public reboot. Combines the personal-stake of the announcement post with an idea hook. Visual: home-page hero (AIFRAMER.DEV).
+**Channel:** LinkedIn
+**Status:** draft — 2026-06-21
+
+> I rebuilt the course and cut almost half of it. The half I cut was the technical tradeoffs. Here's why, and what I think matters more.
+>
+> As a practitioner, I knew how much the alternatives matter. Classifier or recommender. RAG or fine-tuning. A structured workflow or an autonomous agent. Those tradeoffs are real, and they're still in the course materials. But I moved them out of my lectures and problems.
+>
+> Instead I'm doubling down on where projects actually go wrong. How to think about an AI project in the first place. How to frame the problem. How to figure out where a stuck project is actually stuck. The decisions you make while you still have options. I've watched teams fumble all of it for ten years, and there's not much useful guidance out there.
+>
+> I also changed who the course is for. It's aimed at people who already understand how AI projects go wrong. Until you've built one and felt the dynamics, it's hard to see why you'd want a structured process. Too many people think they can ChatGPT their way to AI success.
+>
+> The tradeoffs are still in the course. I just don't open with them anymore. By the time you're choosing a model, the decisions that matter are already behind you.
+>
+> Next cohort is September. If you've shipped a clean model that solved the wrong problem, tell me about it. What was the project?
+
+### Spin-off idea (separate post)
+
+"Too many people think they can ChatGPT their way to AI success." The gap between prototyping in ChatGPT and shipping something that survives contact with real users.

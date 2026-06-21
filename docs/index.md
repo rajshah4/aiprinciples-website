@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "aiframer"
+  name: "aiframer.dev"
   text: "Frame, diagnose, reframe."
   tagline: "You've built AI and know it can go better. A structured process for framing the problem, diagnosing what breaks, and deciding when to change course."
   actions:
