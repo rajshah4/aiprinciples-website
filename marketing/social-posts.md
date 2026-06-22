@@ -44,7 +44,7 @@ Drafts for promoting the AI Problem Framing course. Not published to the site.
 **Channel:** LinkedIn
 **Status:** draft — 2026-06-21
 
-> I rebuilt the course and cut almost half of it. The half I cut was the technical tradeoffs. Here's why, and what I think matters more.
+> I rebuilt the course and cut almost half of it. Built it a new home too: aiframer.dev. The half I cut was the technical tradeoffs. Here's why, and what I think matters more.
 >
 > As a practitioner, I knew how much the alternatives matter. Classifier or recommender. RAG or fine-tuning. A structured workflow or an autonomous agent. Those tradeoffs are real, and they're still in the course materials. But I moved them out of my lectures and problems.
 >
@@ -54,7 +54,7 @@ Drafts for promoting the AI Problem Framing course. Not published to the site.
 >
 > The tradeoffs are still in the course. I just don't open with them anymore. By the time you're choosing a model, the decisions that matter are already behind you.
 >
-> Next cohort is September. If you've shipped a clean model that solved the wrong problem, tell me about it. What was the project?
+> Next cohort is September. Sign up now if you are interested and want to get pinged with updates.
 
 ### Spin-off idea (separate post)
 
