@@ -26,6 +26,8 @@ Stand the two stories side by side and the shape is the same. The technology wor
 
 It shows up two ways. The first is a frame that was wrong from the start and nobody questioned: the field chasing FLOPs, a team assuming users wanted a chatbot. The second is a frame that was right at launch and quietly stopped being right, when the data shifts or the benchmark and the users drift apart and nobody reframes. This course is about catching both, ideally before the year of rebuilding.
 
+These two stories are not cherry-picked. You will see the same pattern in the 200-plus case studies behind the course: real AI projects at companies like Uber, LinkedIn, Pinterest, Spotify, DoorDash, Instacart, Stripe, Netflix, Shopify, Klarna, OpenAI, and Anthropic. While the companies and products differ, the same framing questions decide whether the project works.
+
 ## Different from product framing
 
 Most courses on framing AI projects are product management courses adapted for AI. They teach how to write the first frame: the PRD, the user research, the success metrics, the stakeholder alignment. That work is necessary, and this course does not replace it.
