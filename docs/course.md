@@ -6,10 +6,10 @@
 
 The course lessons
 
-1. **Mindset.** First-principles framing and the cost of getting the frame wrong.
-2. **The GOATS Loop.** GOATS, the atomic unit, and the autonomy spectrum.
-3. **The Diagnosis.** Diagnostics for reframing: when the signals say the frame is broken.
-4. **The Pivot.** Persist, pivot, or stop. The decision framework for mid-project changes.
+1. **Mindset.** Build the instinct to frame a problem from first principles, and see what a wrong frame actually costs.
+2. **The GOATS Loop.** Get a repeatable way to frame a project before you build it: the five GOATS steps, what you are actually predicting (the atomic unit), and how much to let the system act on its own (the autonomy spectrum).
+3. **The Diagnosis.** Learn to read the signals that tell you a frame is broken, so you catch it before it gets expensive.
+4. **The Pivot.** When a project stalls, make the call to persist, pivot, or stop, instead of drifting.
 
 The next cohort runs September 2026, and early-bird pricing is open now. [Sign up on Maven →](https://maven.com/rajistics/ai-problem-framing)
 
