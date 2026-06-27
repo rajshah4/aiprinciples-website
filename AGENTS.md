@@ -14,10 +14,14 @@ Built with VitePress. The hero brand name shown on the home page is set by `hero
 - Deploy: push to `main`. `.github/workflows/pages.yml` builds and deploys to GitHub Pages. No separate publish step.
 - Custom domain is pinned by `docs/public/CNAME` (`aiframer.dev`).
 
-## Voice
+## Sibling repo: the course (`../aiprinciples`)
 
-Any prose written for this site must follow Rajiv's voice skill in the sibling repo at `../aiprinciples/.claude/skills/voice/SKILL.md`. Read it before drafting or editing copy.
+This site is the public face of a larger private repo, **`../aiprinciples`** (the AI Problem Framing course). When a task touches course content, prose, marketing, case studies, or design, the source of truth is there, not here. Read its `AGENTS.md` first. Key things that live in the sibling repo, not this one:
 
-## Design doc
+- **Voice skill** — `../aiprinciples/.claude/skills/voice/SKILL.md`. Any prose written under Rajiv's name (site copy, marketing, social posts) must follow it. Read before drafting or editing.
+- **Case studies database** — `../aiprinciples/first_principles_case_studies_complete.json`. To add one, use the `add-case-study` skill in that repo (`.claude/skills/add-case-study/`). Do not hand-write JSON or one-off scripts.
+- **Marketing copy** — `../aiprinciples/marketing/` (hub: `MARKETING.md`). The `marketing/` folder in *this* repo is only for site-specific social drafts.
+- **Site design doc** — `../aiprinciples/SITE_DESIGN.md`.
+- **Lesson content, talk tracks, worked examples** — all under `../aiprinciples/lessons/` and `resources/`.
 
-The site design doc lives in the private `aiprinciples` repo at `SITE_DESIGN.md`.
+Before writing a script or guessing a convention, check whether the sibling repo already has a skill or documented process for it.

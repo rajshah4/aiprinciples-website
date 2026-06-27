@@ -48,14 +48,28 @@ Drafts for promoting the AI Problem Framing course. Not published to the site.
 >
 > As a practitioner, I knew how much the alternatives matter. Classifier or recommender. RAG or fine-tuning. A structured workflow or an autonomous agent. Those tradeoffs are real, and they're still in the course materials. But I moved them out of my lectures and problems.
 >
-> Instead I'm doubling down on where projects actually go wrong. How to think about an AI project in the first place. How to frame the problem. How to figure out where a stuck project is actually stuck. The decisions you make while you still have options. I've watched teams fumble all of it for ten years, and there's not much useful guidance out there.
+> Instead I'm doubling down on where projects actually go wrong. How to think about an AI project in the first place. How to frame the problem. How to figure out where a stuck project is actually stuck. The decisions you make while you still have options. I've watched teams fumble through it for ten years, and there's not much useful guidance out there.
 >
 > I also changed who the course is for. It's aimed at people who already understand how AI projects go wrong. Until you've built one and felt the dynamics, it's hard to see why you'd want a structured process. Too many people think they can ChatGPT their way to AI success.
 >
 > The tradeoffs are still in the course. I just don't open with them anymore. By the time you're choosing a model, the decisions that matter are already behind you.
 >
-> Next cohort is September. Sign up now if you are interested and want to get pinged with updates.
+> Next cohort is September. Sign up now if you want to get pinged with updates.
+
+### Shorter alt (X/Threads)
+
+> I rebuilt my AI course and cut almost half of it: the technical tradeoffs like RAG vs fine-tuning. What's left is where projects actually go wrong. How to frame the problem, find where it's stuck, and decide to persist, pivot, or stop. aiframer.dev
 
 ### Spin-off idea (separate post)
 
 "Too many people think they can ChatGPT their way to AI success." The gap between prototyping in ChatGPT and shipping something that survives contact with real users.
+
+---
+
+## Databricks: build the engine with ML, not papers (idea)
+
+**Angle:** reframing example. Databricks stopped picking database algorithms from academic papers and instead trained a model on a decade of production traces to predict the best algorithm per workload. A clean Frame to Reframe story: the decision moved from human judgment to a model trained on what actually ran.
+**Channel:** LinkedIn + X/Threads
+**Status:** idea — 2026-06-26. Draft later.
+**Source:** Latent Space, June 24 2026, https://www.latent.space/p/databricks (Reynold Xin). Hook quotes: building an engine the old way ends up "a gigantic pile of shit"; they trained on a "quadrillion data points." Tie back to the course: this is the Reframe step, and the tell you are ready for it is when experts disagree but you already hold the data that decides.
+**Case study:** `databricks-ml-database-engine-2026` in the case-study DB.
