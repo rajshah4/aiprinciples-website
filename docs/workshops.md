@@ -2,9 +2,9 @@
 
 **Your AI team ships fast. The projects still don't land.**
 
-A remote, hands-on workshop where your team runs its own AI projects through a framing process and walks out with go/no-go decisions on real work.
+A remote, hands-on workshop where your team runs its own AI projects through a framing process and walks out with a structured approach for their projects.
 
-Coding agents made your engineers faster than they have ever been. A week of implementation is now an afternoon. The catch is that speed multiplied the cost of starting from the wrong question. The team builds the wrong thing faster, the demo looks great, and the gap shows up a quarter later when the metric never moved the business. The bottleneck is not your model or your engineers. It is the framing decisions made before anyone writes code, and on most teams nobody owns that step.
+Coding agents made your engineers faster than they have ever been. A week of implementation is now an afternoon. But that speed doesn't stop you from running fast in the wrong direction. The bottleneck is not your model or your engineers. It is the framing work before anyone writes code: communicating with the business and identifying the real goal of a project. On most teams nobody owns that step.
 
 This workshop gives your team a shared process for that step. It pairs a short overview of the method with a working session where we walk through your real use cases and rebuild the approach from first principles.
 
