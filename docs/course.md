@@ -15,7 +15,7 @@ The next cohort runs September 2026, and early-bird pricing is open now. [Sign u
 
 ## What students say
 
-The first cohort rated the course **5.0 on Maven**. A few words from the people who took it:
+Students rate the course **4.9 on Maven**. A few words from the people who took it:
 
 > No matter what your experience level is, this is a great overview for anyone working in the space of applied AI.
 >
@@ -36,6 +36,14 @@ The first cohort rated the course **5.0 on Maven**. A few words from the people 
 > My attitude to AI projects has completely transformed as a result of this training. It stresses defining the proper problem rather than concentrating on models first, which is where most AI initiatives fall short. Particularly useful is the "Loop" architecture, which offers an organized and transparent method for defining issues, weighing trade-offs, and agreeing on success measures. This course is perfect for anyone who wishes to approach AI more strategically rather than only creating models.
 >
 > — **Doan Huynh Phuc Thinh**, NAB
+
+> Exceptional content that I've never seen elsewhere. Content is really insightful.
+>
+> — **Ramdas Krishnakumar**, AI Engineer, Panasonic
+
+> A very insightful course with practical takeaways. I'm looking forward to applying what I learned to help drive our AI strategy.
+>
+> — **Isabel George**, Executive Director of Product Management, Medscape
 
 ## About the instructor
 

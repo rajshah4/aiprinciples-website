@@ -59,4 +59,4 @@ The Maven cohort runs four lessons over four weeks: the problem, the loop, the d
 >
 > — **Vishal Sachdev**, Professor, University of Illinois at Urbana-Champaign
 
-The first cohort rated the course **5.0 on Maven**. [Read more reviews →](/course#what-students-say)
+Students rate the course **4.9 on Maven**. [Read more reviews →](/course#what-students-say)
