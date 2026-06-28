@@ -41,6 +41,7 @@ export default defineConfig({
       { text: "Resources", link: "/resources" },
       { text: "Influences", link: "/influences" },
       { text: "Course", link: "/course" },
+      { text: "For teams", link: "/workshops" },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/rajshah4/aiprinciples-website" },
