@@ -4,6 +4,14 @@ The course publishes some of its material publicly. The cohort goes deeper.
 
 ## Free
 
+### Upcoming Webinar: ChatGPT Loves Your AI Idea. That's the Problem.
+
+**Live Thursday, July 23, 2026, 11:00 AM CDT.**
+
+Ask a chatbot how to build your AI project and it hands you fifteen sections of correct advice, with no idea which three matter or whether you should build the thing at all. It is enthusiastic about whatever you bring, it builds the hardest version of your idea, and it will never tell you no. This session shows the gap live: the same project run through ChatGPT, then through a free framing skill that asks the questions a chatbot skips, when to simplify, when to build, and when to walk away.
+
+[Register on Maven →](https://maven.com/p/01a91c/chat-gpt-loves-your-ai-idea-that-s-the-problem)
+
 ### The AI Framing Worksheet
 
 A downloadable worksheet that walks through the eight questions to ask before you scope an AI project. Use it on your next project. The questions pull up richer information, surface options you would not have considered, and leave you with a sharper perspective on how to build the solution.
