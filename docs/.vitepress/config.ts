@@ -38,6 +38,7 @@ export default defineConfig({
     nav: [
       { text: "Why framing", link: "/why-framing" },
       { text: "Framework", link: "/framework" },
+      { text: "Skills", link: "/skills" },
       { text: "Resources", link: "/resources" },
       { text: "Influences", link: "/influences" },
       { text: "Course", link: "/course" },
