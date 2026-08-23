@@ -34,3 +34,53 @@
   width: 32%;
   white-space: nowrap;
 }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.vp-doc .video-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.vp-doc .video-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+.vp-doc .video-card img {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.vp-doc .video-card strong {
+  padding: 0.9rem 0.9rem 0.35rem;
+  line-height: 1.35;
+}
+
+.vp-doc .video-card span {
+  padding: 0 0.9rem 1rem;
+  color: var(--vp-c-text-2);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}

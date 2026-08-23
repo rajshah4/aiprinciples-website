@@ -39,7 +39,7 @@ features:
 | Working on traditional ML | [The ML section in the framework](/framework#traditional-ml). |
 | Working on GenAI or RAG | [The GenAI section in the framework](/framework#genai). |
 | Working on agents | [The Agents section in the framework](/framework#agents). |
-| Curious about the thesis | [Why framing matters](/why-framing), then the [Ship Your AI Project webinar](/resources#webinar-ship-your-ai-project-3-questions). |
+| Curious about the thesis | [Why framing matters](/why-framing), then the [AI Problem Framing video series](/resources#watch-ai-problem-framing). |
 
 </div>
 

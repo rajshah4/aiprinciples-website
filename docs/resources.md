@@ -4,13 +4,29 @@ The course publishes some of its material publicly. The cohort goes deeper.
 
 ## Free
 
-### Upcoming Webinar: ChatGPT Loves Your AI Idea. That's the Problem.
+### Watch AI Problem Framing
 
-**Live Thursday, July 23, 2026, 11:00 AM CDT.**
+These three webinars cover the full arc: frame the project before you build, diagnose what the evals actually mean, and pressure-test an idea when a chatbot is too eager to agree.
 
-Ask a chatbot how to build your AI project and it hands you fifteen sections of correct advice, with no idea which three matter or whether you should build the thing at all. It is enthusiastic about whatever you bring, it builds the hardest version of your idea, and it will never tell you no. This session shows the gap live: the same project run through ChatGPT, then through a free framing skill that asks the questions a chatbot skips, when to simplify, when to build, and when to walk away.
+[Watch the complete playlist on YouTube →](https://www.youtube.com/playlist?list=PLfqKKLgZ_dyA)
 
-[Register on Maven →](https://maven.com/p/01a91c/chat-gpt-loves-your-ai-idea-that-s-the-problem)
+<div class="video-grid">
+  <a class="video-card" href="https://www.youtube.com/watch?v=21K0wmY1Kmk">
+    <img src="/images/videos/before-you-build.jpg" alt="Don't build yet. Rajiv Shah raises his hand in a stop gesture." loading="lazy">
+    <strong>Before You Build an AI Project, Answer These 3 Questions</strong>
+    <span>Test the decision, the approach, and the evidence before you commit to the build.</span>
+  </a>
+  <a class="video-card" href="https://www.youtube.com/watch?v=6fu_vJrGmyc">
+    <img src="/images/videos/wrong-signal.jpg" alt="Wrong signal. Strong evaluation results conflict with a declining real-world signal." loading="lazy">
+    <strong>Your AI Evals Passed. Your Project Can Still Fail.</strong>
+    <span>Good model metrics do not tell you whether the project is helping users. Learn how to diagnose the gap.</span>
+  </a>
+  <a class="video-card" href="https://www.youtube.com/watch?v=hVaXOHgKTHA">
+    <img src="/images/videos/never-says-no.jpg" alt="Never says no. Rajiv Shah questions a stream of approval messages." loading="lazy">
+    <strong>ChatGPT Loves Your AI Idea. That's the Problem.</strong>
+    <span>See the same project run through ChatGPT and a framing skill built to ask what the chatbot skips.</span>
+  </a>
+</div>
 
 ### The AI Framing Worksheet
 
@@ -18,23 +34,7 @@ A downloadable worksheet that walks through the eight questions to ask before yo
 
 [Download from the Maven page →](https://maven.com/rajistics/ai-problem-framing)
 
-### Webinar: Ship Your AI Project, 3 Questions
-
-Three questions before you start your next AI project: what decision are you supporting, which approach is right, and how will you know if it worked. The talk covers System 1 vs. System 2 thinking for AI, the Oracle Test for business impact, the atomic unit and the simplicity test, and how to set success and kill criteria with leading indicators before you build. Includes a baseline section on human baselines and pre-mortem moves for catching failure before it happens.
-
-The projects that shipped, that created real value, that made it to production, all took time early to frame things properly. This is the part most teams skip.
-
-[Watch on Maven →](https://maven.com/p/f96e88/ship-your-ai-project-3-questions)
-
-### Webinar: Going Beyond AI Evals, Diagnose and Decide
-
-Your evals look good. Is that the whole story? Most teams hit their accuracy targets and still fail to drive adoption. The webinar walks through how to tell the difference between a model problem (keep tuning) and a framing problem (the eval is measuring the wrong thing), using quick diagnostic moves drawn from working on hundreds of AI projects. It then closes the loop: once you have a diagnosis, how to decide whether to continue, pivot, or stop.
-
-Pairs directly with the [Diagnose stage of the framework](/framework#diagnose).
-
-[Watch on Maven →](https://maven.com/p/f7fd21/going-beyond-ai-evals-diagnose-and-decide)
-
-### Talks and videos
+### More talks and videos
 
 Recorded talks, free on YouTube.
 
