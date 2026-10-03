@@ -1,76 +1,53 @@
-# Resources
+---
+title: Tools
+description: Free worksheets, cheat sheets, and skills for framing and diagnosing AI projects.
+---
 
-The course publishes some of its material publicly. The cohort goes deeper.
+# Tools
 
-## Free
+Everything here is free, with no email wall. Print the PDFs and bring them to your next kickoff, or run the skills on your project directly.
 
-### Watch AI Problem Framing
+## The book
 
-These three webinars cover the full arc: frame the project before you build, diagnose what the evals actually mean, and pressure-test an idea when a chatbot is too eager to agree.
+[AI Problem Framing for AI Practitioners](/book) is the full method. It's coming soon as a free PDF under CC BY-NC 4.0.
 
-[Watch the complete playlist on YouTube →](https://www.youtube.com/playlist?list=PLfqKKLgZ_dyA)
+## Worksheets and cheat sheets
 
-<div class="video-grid">
-  <a class="video-card" href="https://www.youtube.com/watch?v=21K0wmY1Kmk">
-    <img src="/images/videos/before-you-build.jpg" alt="Don't build yet. Rajiv Shah raises his hand in a stop gesture." loading="lazy">
-    <strong>Before You Build an AI Project, Answer These 3 Questions</strong>
-    <span>Test the decision, the approach, and the evidence before you commit to the build.</span>
+<div class="af-shelf">
+  <a class="af-shelf-item" id="the-ai-framing-worksheet" href="/downloads/ai-framing-worksheet.pdf">
+    <div class="af-shelf-item__thumb"><img src="/images/shelf/ai-framing-worksheet.jpg" alt="First page of the AI Framing Worksheet" loading="lazy"></div>
+    <div class="af-shelf-item__title">AI Framing Worksheet</div>
+    <div class="af-shelf-item__desc">The eight questions to answer before you scope an AI project, in three sections: the problem, the approach, and the evidence.</div>
+    <div class="af-shelf-item__tag">PDF · 1 page</div>
   </a>
-  <a class="video-card" href="https://www.youtube.com/watch?v=6fu_vJrGmyc">
-    <img src="/images/videos/wrong-signal.jpg" alt="Wrong signal. Strong evaluation results conflict with a declining real-world signal." loading="lazy">
-    <strong>Your AI Evals Passed. Your Project Can Still Fail.</strong>
-    <span>Good model metrics do not tell you whether the project is helping users. Learn how to diagnose the gap.</span>
+  <a class="af-shelf-item" id="goats-loop-cheat-sheet" href="/downloads/goats-loop-cheat-sheet.pdf">
+    <div class="af-shelf-item__thumb"><img src="/images/shelf/goats-loop-cheat-sheet.jpg" alt="First page of the GOATS Loop quick reference" loading="lazy"></div>
+    <div class="af-shelf-item__title">GOATS Loop cheat sheet</div>
+    <div class="af-shelf-item__desc">Each step's questions, outputs, and the red flags that mean you skipped it.</div>
+    <div class="af-shelf-item__tag">PDF · 4 pages</div>
   </a>
-  <a class="video-card" href="https://www.youtube.com/watch?v=hVaXOHgKTHA">
-    <img src="/images/videos/never-says-no.jpg" alt="Never says no. Rajiv Shah questions a stream of approval messages." loading="lazy">
-    <strong>ChatGPT Loves Your AI Idea. That's the Problem.</strong>
-    <span>See the same project run through ChatGPT and a framing skill built to ask what the chatbot skips.</span>
+  <a class="af-shelf-item" id="signals-canvas" href="/downloads/signals-canvas.pdf">
+    <div class="af-shelf-item__thumb"><img src="/images/shelf/signals-canvas.jpg" alt="First page of the Signals Canvas" loading="lazy"></div>
+    <div class="af-shelf-item__title">Signals Canvas</div>
+    <div class="af-shelf-item__desc">One page to agree with the owner on success, stop, and early-warning signals, each with a target and a date, before you build.</div>
+    <div class="af-shelf-item__tag">PDF · 1 page</div>
+  </a>
+  <a class="af-shelf-item" id="in-the-moment-reframing" href="/downloads/in-the-moment-reframing.pdf">
+    <div class="af-shelf-item__thumb"><img src="/images/shelf/in-the-moment-reframing.jpg" alt="First page of In-the-Moment Reframing" loading="lazy"></div>
+    <div class="af-shelf-item__title">In-the-Moment Reframing</div>
+    <div class="af-shelf-item__desc">The four traps in the room, with the phrase you'll hear and what to say instead.</div>
+    <div class="af-shelf-item__tag">PDF · 2 pages</div>
   </a>
 </div>
 
-### The AI Framing Worksheet
+## The framing skills
 
-A downloadable worksheet that walks through the eight questions to ask before you scope an AI project. Use it on your next project. The questions pull up richer information, surface options you would not have considered, and leave you with a sharper perspective on how to build the solution.
+[frame-use-case and diagnose-use-case](/skills) run the method on your own project inside Claude Code, Cursor, or any tool that supports Agent Skills. They're built to argue with you, and the diagnosis skill is allowed to recommend stopping. MIT licensed on [GitHub](https://github.com/rajshah4/ai-framing-skills).
 
-[Download from the Maven page →](https://maven.com/rajistics/ai-problem-framing)
+## Talks
 
-### More talks and videos
-
-Recorded talks, free on YouTube.
-
-#### Framing AI Problems with the GOATS Loop
-
-A walkthrough of the GOATS Loop, the five-step process for framing an AI problem before you build: Goal, Operating Assumptions, Alternatives, Trade-offs, Signals. This is the backbone of the course.
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
-  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/fuVZ0aXxQcI" title="Framing AI Problems with the GOATS Loop" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-#### Reframing Fast Attention
-
-A talk on the fast-attention work and how reframing the problem changes the approach.
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
-  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/Y651GqBff74" title="Reframing Fast Attention" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-#### How AI is Getting Priced
-
-A talk on how AI products and usage are getting priced, and what that means for how you scope a project.
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1rem 0;">
-  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:8px;" src="https://www.youtube-nocookie.com/embed/v1ccFMFvupg" title="How AI is Getting Priced" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+Three short talks cover the whole arc, plus longer talks on the GOATS Loop and FlashAttention. [Watch the talks →](/talks)
 
 ## In the cohort
 
-The four-week Maven cohort goes deeper than the public material can. Included:
-
-- Eight live sessions across four weeks (two per week, run in different timezones)
-- Recorded lessons (audio and video) with lifetime access - (1-2 hours a week)
-- A 250+ page reference manual covering ML, GenAI, and agentic systems
-- A database of more than 200 AI case studies with framing analysis
-- Course-wide worksheets and checklists for diagnostics and pivot decisions
-- Office hours with the instructor
-
-[See the cohort page →](/course)
+The four-week [Maven cohort](/course) goes further than the public material: live sessions on your own project, recorded lessons, the alternatives catalog and worked examples that aren't in the book, a database of more than 200 AI case studies with framing analysis, and office hours.

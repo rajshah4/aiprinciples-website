@@ -1,65 +1,415 @@
+/*
+ * aiframer.dev house style.
+ * Paper and ink, with the rust and green from the book's hand-drawn figures.
+ * Fonts: Newsreader (headings), Source Serif 4 (body), IBM Plex Mono (labels).
+ */
+
 :root {
-  --vp-c-brand-1: #c2410c;
-  --vp-c-brand-2: #9a3412;
-  --vp-c-brand-3: #ea580c;
-  --vp-c-brand-soft: rgba(234, 88, 12, 0.14);
+  --af-paper: #f7f3ea;
+  --af-paper-2: #efe8d9;
+  --af-card: #fffdf8;
+  --af-ink: #1f1c17;
+  --af-ink-2: #574f45;
+  --af-ink-3: #8a8174;
+  --af-rule: #ddd3c1;
+  --af-rust: #a8461f;
+  --af-rust-2: #8a3815;
+  --af-rust-soft: rgba(168, 70, 31, 0.1);
+  --af-green: #3f6b45;
+  --af-green-deep: #2c4a31;
+  --af-shadow: 0 1px 2px rgba(60, 45, 20, 0.06), 0 8px 24px rgba(60, 45, 20, 0.07);
+
+  --vp-font-family-base: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --vp-font-family-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --af-font-display: "Newsreader", "Source Serif 4", Georgia, serif;
+
+  --vp-c-bg: var(--af-paper);
+  --vp-c-bg-alt: var(--af-paper-2);
+  --vp-c-bg-soft: var(--af-paper-2);
+  --vp-c-bg-elv: var(--af-card);
+  --vp-c-text-1: var(--af-ink);
+  --vp-c-text-2: var(--af-ink-2);
+  --vp-c-text-3: var(--af-ink-3);
+  --vp-c-divider: var(--af-rule);
+  --vp-c-gutter: var(--af-rule);
+  --vp-c-border: var(--af-rule);
+  --vp-c-default-soft: rgba(87, 79, 69, 0.1);
+
+  --vp-c-brand-1: var(--af-rust);
+  --vp-c-brand-2: var(--af-rust-2);
+  --vp-c-brand-3: var(--af-rust);
+  --vp-c-brand-soft: var(--af-rust-soft);
+
+  --vp-nav-bg-color: var(--af-paper);
+  --vp-local-nav-bg-color: var(--af-paper);
+  --vp-sidebar-bg-color: var(--af-paper-2);
+  --vp-code-block-bg: #ece5d5;
+  --vp-c-tip-soft: rgba(63, 107, 69, 0.1);
 }
 
 .dark {
-  --vp-c-brand-1: #fb923c;
-  --vp-c-brand-2: #f97316;
-  --vp-c-brand-3: #fdba74;
+  --af-paper: #191714;
+  --af-paper-2: #221f1a;
+  --af-card: #26221c;
+  --af-ink: #ede6d8;
+  --af-ink-2: #bdb3a2;
+  --af-ink-3: #8c8374;
+  --af-rule: #3a342b;
+  --af-rust: #e3916a;
+  --af-rust-2: #f0a985;
+  --af-rust-soft: rgba(227, 145, 106, 0.14);
+  --af-green: #93ba95;
+  --af-green-deep: #2c4a31;
+  --af-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+  --vp-code-block-bg: #221f1a;
+  --vp-c-default-soft: rgba(237, 230, 216, 0.08);
 }
 
-.VPHero .name {
-  font-size: 1.4rem;
-  color: var(--vp-c-text-2);
-  letter-spacing: 0.04em;
+body {
+  background: var(--af-paper);
+  font-size: 17px;
+}
+
+/* ---------- Global type ---------- */
+
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.af-home h1,
+.af-home h2,
+.af-home h3 {
+  font-family: var(--af-font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--af-ink);
+}
+
+.vp-doc h1 {
+  font-size: 2.6rem;
+  line-height: 1.12;
+}
+
+.vp-doc h2 {
+  font-size: 1.85rem;
+  border-top: 1px solid var(--af-rule);
+}
+
+.vp-doc h3 {
+  font-size: 1.35rem;
+}
+
+.vp-doc p,
+.vp-doc li {
+  font-size: 1.06rem;
+  line-height: 1.72;
+}
+
+.vp-doc a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.vp-doc blockquote {
+  border-left: 3px solid var(--af-rust);
+  font-style: italic;
+}
+
+.vp-doc table {
+  font-size: 0.98rem;
+}
+
+.vp-doc tr:nth-child(2n) {
+  background: transparent;
+}
+
+.vp-doc th {
+  background: var(--af-paper-2);
+}
+
+/* Nav */
+.VPNavBar .title {
+  font-family: var(--af-font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.VPNavBarMenuLink,
+.VPNavBarMenuGroup .text {
+  font-size: 0.95rem !important;
+}
+
+.VPFooter {
+  background: var(--af-paper-2) !important;
+  border-top: 1px solid var(--af-rule) !important;
+}
+
+/* Sketches: the house figures are drawn on white, so give them a sheet of paper. */
+.vp-doc .sketch,
+.af-home .sketch {
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+  background: #fffdf8;
+  border: 1px solid var(--af-rule);
+  border-radius: 6px;
+  box-shadow: var(--af-shadow);
+}
+
+.vp-doc .sketch img,
+.af-home .sketch img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.vp-doc .sketch figcaption,
+.af-home .sketch figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b6255;
+  text-align: center;
+  font-style: italic;
+}
+
+/* ---------- Shared pieces ---------- */
+
+.af-eyebrow {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: var(--af-rust);
 }
 
-.VPHero .text {
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  line-height: 1.1;
+.af-btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 4px;
+  border: 1px solid var(--af-ink);
+  font-family: var(--vp-font-family-base);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
-.VPHero .tagline {
-  max-width: 640px;
+.af-btn--primary {
+  background: var(--af-ink);
+  color: var(--af-paper) !important;
+}
+
+.af-btn--primary:hover {
+  background: var(--af-rust);
+  border-color: var(--af-rust);
+}
+
+.af-btn--ghost {
+  background: transparent;
+  color: var(--af-ink) !important;
+}
+
+.af-btn--ghost:hover {
+  background: var(--af-rust-soft);
+}
+
+.af-btn--soon {
+  border-style: dashed;
+  border-color: var(--af-ink-3);
+  color: var(--af-ink-2) !important;
+  background: transparent;
+  cursor: default;
+}
+
+.af-btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.af-fineprint {
+  margin-top: 0.9rem;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.75rem;
+  color: var(--af-ink-3);
+  letter-spacing: 0.02em;
+}
+
+.af-more {
+  font-weight: 600;
+  color: var(--af-rust) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid currentColor;
+}
+
+/* The book cover, drawn in CSS so it can change with each edition. */
+.af-cover {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  width: 100%;
+  max-width: 280px;
+  padding: 2rem 1.5rem 1.5rem 2.1rem;
+  background: var(--af-green-deep);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.28) 0, rgba(0, 0, 0, 0) 14px),
+    radial-gradient(120% 80% at 80% 0%, rgba(255, 255, 255, 0.08), transparent 60%);
+  color: #f3ecdd;
+  border-radius: 3px 8px 8px 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 18px 40px rgba(40, 30, 10, 0.28);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  transform: rotate(-1.5deg);
+  transition: transform 0.2s ease;
+}
+
+.af-cover:hover {
+  transform: rotate(0deg) translateY(-3px);
+}
+
+.af-cover__kicker {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #e3b597;
+}
+
+.af-cover__title {
+  margin-top: 1.1rem;
+  font-family: var(--af-font-display);
+  font-size: 2.15rem;
+  line-height: 1.02;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  color: #f8f2e6;
+}
+
+.af-cover__sub {
+  margin-top: 0.6rem;
+  font-family: var(--af-font-display);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #d9cfbd;
+}
+
+.af-cover__rule {
+  margin: 1.2rem 0 0;
+  width: 2.5rem;
+  height: 2px;
+  background: #e3916a;
+}
+
+.af-cover__goats {
+  margin-top: auto;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.62rem;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  color: #c9bfae;
+}
+
+.af-cover__author {
+  margin-top: 1rem;
+  font-family: var(--af-font-display);
   font-size: 1.1rem;
-  line-height: 1.55;
+  color: #f8f2e6;
 }
 
-.vp-doc .entry-points th:first-child,
-.vp-doc .entry-points td:first-child {
-  width: 32%;
-  white-space: nowrap;
+/* Download shelf */
+.af-shelf {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 1.5rem;
 }
 
+.af-shelf-item {
+  display: flex;
+  flex-direction: column;
+  color: var(--af-ink) !important;
+  text-decoration: none !important;
+}
+
+.af-shelf-item__thumb {
+  aspect-ratio: 8.5 / 11;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--af-rule);
+  border-radius: 3px;
+  box-shadow: var(--af-shadow);
+  transition: transform 0.2s ease;
+}
+
+.af-shelf-item:hover .af-shelf-item__thumb {
+  transform: translateY(-4px) rotate(-0.6deg);
+}
+
+.af-shelf-item__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.af-shelf-item__title {
+  margin-top: 0.9rem;
+  font-family: var(--af-font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.af-shelf-item__desc {
+  margin-top: 0.3rem;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: var(--af-ink-2);
+}
+
+.af-shelf-item__tag {
+  margin-top: 0.5rem;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--af-rust);
+}
+
+/* Video cards */
 .video-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1.25rem 0 2rem;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
 }
 
-.vp-doc .video-card {
+.vp-doc .video-card,
+.af-home .video-card {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  border: 1px solid var(--af-rule);
+  border-radius: 6px;
+  background: var(--af-card);
+  color: var(--af-ink);
   text-decoration: none;
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
-.vp-doc .video-card:hover {
-  border-color: var(--vp-c-brand-1);
+.vp-doc .video-card:hover,
+.af-home .video-card:hover {
+  border-color: var(--af-rust);
   transform: translateY(-2px);
 }
 
-.vp-doc .video-card img {
+.vp-doc .video-card img,
+.af-home .video-card img {
   width: 100%;
   margin: 0;
   border-radius: 0;
@@ -67,20 +417,347 @@
   object-fit: cover;
 }
 
-.vp-doc .video-card strong {
-  padding: 0.9rem 0.9rem 0.35rem;
-  line-height: 1.35;
+.vp-doc .video-card strong,
+.af-home .video-card strong {
+  padding: 0.9rem 1rem 0.35rem;
+  font-family: var(--af-font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
-.vp-doc .video-card span {
-  padding: 0 0.9rem 1rem;
-  color: var(--vp-c-text-2);
-  font-size: 0.9rem;
+.vp-doc .video-card span,
+.af-home .video-card span {
+  padding: 0 1rem 1.1rem;
+  color: var(--af-ink-2);
+  font-size: 0.92rem;
   line-height: 1.5;
 }
 
+/* ---------- Home ---------- */
+
+.af-home {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px 4rem;
+  color: var(--af-ink);
+}
+
+.af-home p {
+  line-height: 1.7;
+}
+
+.af-home a {
+  color: var(--af-rust);
+}
+
+.af-section {
+  padding: 4.5rem 0;
+  border-top: 1px solid var(--af-rule);
+}
+
+.af-section__head {
+  max-width: 680px;
+  margin-bottom: 2.25rem;
+}
+
+.af-section__head h2 {
+  margin-top: 0.6rem;
+  font-size: clamp(1.9rem, 3.4vw, 2.5rem);
+  line-height: 1.12;
+}
+
+.af-section__head p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: var(--af-ink-2);
+}
+
+.af-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 3.5rem;
+  align-items: center;
+  padding: 4.5rem 0 4.5rem;
+}
+
+.af-hero h1 {
+  margin-top: 1rem;
+  font-size: clamp(2.4rem, 4.6vw, 3.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+
+.af-hero h1 em {
+  display: block;
+  margin-top: 0.12em;
+  color: var(--af-rust);
+}
+
+.af-hero__lede {
+  margin-top: 1.5rem;
+  max-width: 34rem;
+  font-size: 1.2rem;
+  color: var(--af-ink-2);
+}
+
+.af-hero .sketch {
+  margin: 0;
+  transform: rotate(0.8deg);
+}
+
+.af-book {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 4rem;
+  align-items: start;
+}
+
+.af-book__cover {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.af-book h2 {
+  margin-top: 0.6rem;
+  font-size: clamp(1.9rem, 3.4vw, 2.5rem);
+  line-height: 1.12;
+}
+
+.af-book__body > p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: var(--af-ink-2);
+  max-width: 40rem;
+}
+
+.af-toc {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  border-top: 1px solid var(--af-rule);
+  max-width: 40rem;
+}
+
+.af-toc li {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--af-rule);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.af-toc__num {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--af-ink-3);
+  padding-top: 0.2rem;
+}
+
+.af-toc strong {
+  font-family: var(--af-font-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.af-toc span.af-toc__desc {
+  color: var(--af-ink-2);
+}
+
+.af-stages {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.af-stage .sketch {
+  margin: 0 0 1.25rem;
+}
+
+.af-stage__num {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.75rem;
+  color: var(--af-rust);
+  letter-spacing: 0.1em;
+}
+
+.af-stage h3 {
+  margin-top: 0.3rem;
+  font-size: 1.6rem;
+}
+
+.af-stage p {
+  margin-top: 0.5rem;
+  color: var(--af-ink-2);
+}
+
+.af-skills-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--af-card);
+  border: 1px solid var(--af-rule);
+  border-left: 4px solid var(--af-green);
+  border-radius: 4px;
+}
+
+.af-skills-strip h3 {
+  font-size: 1.35rem;
+}
+
+.af-skills-strip p {
+  margin-top: 0.35rem;
+  color: var(--af-ink-2);
+}
+
+.af-skills-strip code {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.88em;
+  color: var(--af-green);
+}
+
+.af-work {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.af-work__card {
+  padding: 2rem;
+  background: var(--af-card);
+  border: 1px solid var(--af-rule);
+  border-radius: 6px;
+}
+
+.af-work__card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.af-work__card p {
+  margin-top: 0.75rem;
+  color: var(--af-ink-2);
+}
+
+.af-quote {
+  max-width: 46rem;
+  margin: 3.5rem auto 0;
+  text-align: center;
+}
+
+.af-quote p {
+  font-family: var(--af-font-display);
+  font-style: italic;
+  font-size: clamp(1.3rem, 2.4vw, 1.65rem);
+  line-height: 1.4;
+  color: var(--af-ink);
+}
+
+.af-quote cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-size: 0.95rem;
+  color: var(--af-ink-2);
+}
+
+/* Book page */
+.af-book-page {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  margin: 1.5rem 0 1rem;
+}
+
+.af-book-page .af-cover {
+  max-width: 220px;
+  padding: 1.5rem 1.1rem 1.1rem 1.6rem;
+}
+
+.af-book-page .af-cover__title {
+  font-size: 1.65rem;
+}
+
+.af-book-page .af-btn-row {
+  margin-top: 1rem;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 960px) {
+  .af-hero,
+  .af-book {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .af-book__cover {
+    justify-content: flex-start;
+  }
+
+  .af-stages {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .af-shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .af-work {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 760px) {
+  .af-home {
+    padding: 0 16px 3rem;
+  }
+
+  .af-hero {
+    padding: 2.5rem 0 3rem;
+  }
+
+  .af-section {
+    padding: 3rem 0;
+  }
+
   .video-grid {
     grid-template-columns: 1fr;
+  }
+
+  .af-toc li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .af-skills-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .af-book-page {
+    grid-template-columns: 1fr;
+  }
+
+  .af-cover {
+    max-width: 200px;
+    padding: 1.4rem 1rem 1rem 1.5rem;
+  }
+
+  .af-cover__title {
+    font-size: 1.55rem;
+  }
+
+  .vp-doc h1 {
+    font-size: 2.1rem;
   }
 }

@@ -4,11 +4,11 @@ The decisions that sink an AI project are the ones you make early, before any co
 
 The framework is AI-agnostic. I teach it using traditional ML, GenAI, and now agentic AI.
 
-The framework runs in three stages. The first is **Frame**: defining what the project is for before you build it. The second is **Diagnose**: figuring out what is actually failing once you have something in production. The third is **Reframe**: deciding whether to persist with the current approach, pivot to a different one, or stop the project entirely. If you decide to pivot, I provide a set of strategies for rethinking your approach.
+The framework runs in three stages. The first is **Frame**: defining what the project is for before you build it. The second is **Diagnose**: figuring out what is actually failing once you have something in production. The third is **Decide**: choosing whether to persist with the current approach, pivot to a different one, or stop the project entirely. If you decide to pivot, I provide a set of strategies for rethinking your approach.
 
 There are a lot of decisions in the Frame stage. That is where GOATS comes in. It's an easy way to remember and cover the essential decisions for every AI project.
 
-![The full framework: Mindset feeds into the GOATS loop, the loop hands off to Build/Tune, Evaluation runs into Diagnosis, Diagnosis runs into Pivot, and Pivot routes to Deploy, Stop, or Reframe back into the loop.](/images/framework.png)
+![The full framework: Mindset feeds into the GOATS loop, the loop hands off to Build/Tune, Evaluation runs into Diagnosis, Diagnosis runs into Decision, and Decision routes to Build/Tune, Deploy, Stop, or Reframing back into the loop.](/images/framework.png)
 
 *The whole framework on one page. The dashed box on the left is the GOATS loop. The dotted box in the middle is the build-evaluate-diagnose cycle. The reframing arrow on the right is what most framing material does not cover.*
 
@@ -48,7 +48,7 @@ Metrics come in three layers. Model metrics (AUC, RMSE, retrieval accuracy) tell
 
 Diagnostics is the half of the course that product courses do not cover at all.
 
-## 3. Reframe
+## 3. Decide
 
 The third stage is the decision: persist, pivot, or stop.
 
@@ -74,7 +74,7 @@ A common pattern in agent work right now is **constrain**: teams pivot from a fu
 
 The three stages are common across different types of AI problems. Each type requires different tactics inside them.
 
-A team framing a churn-ranking system, a team framing a compliance RAG bot, and a team framing an autonomous research agent all run Frame, Diagnose, and Reframe. What changes is which alternatives are on the table, which signals fire when the frame breaks, and which reframing moves earn their keep. The course teaches the specific tactics for each class.
+A team framing a churn-ranking system, a team framing a compliance RAG bot, and a team framing an autonomous research agent all run Frame, Diagnose, and Decide. What changes is which alternatives are on the table, which signals fire when the frame breaks, and which reframing moves earn their keep. The course teaches the specific tactics for each class.
 
 ### Traditional ML
 
@@ -102,6 +102,6 @@ The cohort worked project runs this on an agent pivot, where a multi-step resear
 
 ## Why one framework covers all of it
 
-This course focuses on the timeless principles for buildng effect AI projects. The five GOATS questions, the three diagnostic questions, and the persist/pivot/stop decision apply to a 2015 logistic regression and a 2026 multi-agent system. 
+This course focuses on the timeless principles for building effective AI projects. The five GOATS questions, the three diagnostic questions, and the persist/pivot/stop decision apply to a 2015 logistic regression and a 2026 multi-agent system. 
 
 [See the cohort to apply this on your own project →](/course)
