@@ -1,3 +1,8 @@
+---
+title: "Free AI Skills for Project Framing and Diagnosis"
+description: "Install frame-use-case and diagnose-use-case to pressure-test an AI project or diagnose a stalled system. Free, MIT licensed, with ML and GenAI references."
+---
+
 # The Framing Skills
 
 I turned the core of the course into two free AI skills. Install them in your coding agent, or paste them into any AI chat, and they run my framing method on your actual project.

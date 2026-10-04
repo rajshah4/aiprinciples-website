@@ -1,3 +1,8 @@
+---
+title: "Install the AI Framing Skills"
+description: "Install the free AI framing and diagnosis skills in Claude Code or another coding agent, or use them in an AI chat. Includes setup instructions."
+---
+
 # Install the framing skills
 
 Everything here is free and MIT licensed. Source: [github.com/rajshah4/ai-framing-skills](https://github.com/rajshah4/ai-framing-skills). What the skills are and why they argue with you: [the skills page](/skills).

@@ -1,3 +1,8 @@
+---
+title: "The GOATS Framework for AI Problem Framing"
+description: "Use the GOATS Loop to frame an AI project, diagnose failures after launch, and decide whether to persist, pivot, or stop. For ML, GenAI, and agents."
+---
+
 # The Framework
 
 The decisions that sink an AI project are the ones you make early, before any code, and you usually don't feel them until production. This framework is built to get those decisions right the first time, and to rework the project when you hit issues anyway. I distilled it from my own years of AI work plus what I learned from others, and it applies to any project.

@@ -1,10 +1,40 @@
 import { defineConfig } from "vitepress";
 
+const siteUrl = "https://aiframer.dev";
+
 export default defineConfig({
   title: "aiframer",
+  titleTemplate: "aiframer.dev",
   description:
-    "Frame, diagnose, decide. A companion site for the AI Problem Framing course.",
+    "Frame AI projects, diagnose what breaks, and decide when to persist, pivot, or stop. A method for ML, GenAI, and agents by Rajiv Shah.",
   cleanUrls: true,
+  // Public files are copied as-is, not rendered as documentation pages.
+  srcExclude: ["public/**"],
+  sitemap: {
+    hostname: siteUrl,
+  },
+  // Keep metadata in page data so it also updates during client-side navigation.
+  transformPageData(pageData) {
+    const path = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, "$1")
+      .replace(/\.md$/, "");
+    const url = `${siteUrl}/${path}`;
+    const title = `${pageData.title} | aiframer.dev`;
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push(
+      ["link", { rel: "canonical", href: url }],
+      ["meta", { property: "og:title", content: title }],
+      ["meta", { property: "og:description", content: pageData.description }],
+      ["meta", { property: "og:url", content: url }],
+      ["meta", { name: "twitter:title", content: title }],
+      ["meta", { name: "twitter:description", content: pageData.description }],
+    );
+  },
+  transformHead({ page }) {
+    if (page === "404.md") {
+      return [["meta", { name: "robots", content: "noindex" }]];
+    }
+  },
   head: [
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
@@ -17,29 +47,10 @@ export default defineConfig({
     ],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "aiframer.dev" }],
-    ["meta", { property: "og:title", content: "aiframer.dev — Frame, diagnose, decide." }],
-    [
-      "meta",
-      {
-        property: "og:description",
-        content:
-          "A structured process for framing AI problems, diagnosing what breaks, and knowing when to change course.",
-      },
-    ],
-    ["meta", { property: "og:url", content: "https://aiframer.dev/" }],
     ["meta", { property: "og:image", content: "https://aiframer.dev/images/og.png" }],
     ["meta", { property: "og:image:width", content: "1200" }],
     ["meta", { property: "og:image:height", content: "630" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["meta", { name: "twitter:title", content: "aiframer.dev — Frame, diagnose, decide." }],
-    [
-      "meta",
-      {
-        name: "twitter:description",
-        content:
-          "A structured process for framing AI problems, diagnosing what breaks, and knowing when to change course.",
-      },
-    ],
     ["meta", { name: "twitter:image", content: "https://aiframer.dev/images/og.png" }],
   ],
   themeConfig: {

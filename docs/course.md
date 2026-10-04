@@ -1,3 +1,8 @@
+---
+title: "AI Problem Framing Course with Rajiv Shah"
+description: "Bring your AI project to a live four-week course. Learn the GOATS Loop, diagnose stalled systems, and decide when to persist, pivot, or stop."
+---
+
 # Teaching
 
 ## The Maven cohort

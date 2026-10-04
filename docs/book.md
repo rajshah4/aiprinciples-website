@@ -1,6 +1,6 @@
 ---
-title: The book
-description: AI Problem Framing for AI Practitioners. A free book on framing AI problems, diagnosing running systems, and deciding when to persist, pivot, or stop.
+title: "AI Problem Framing for AI Practitioners: The Book"
+description: "Preview Rajiv Shah's upcoming free book on framing AI projects, diagnosing running systems, and deciding when to persist, pivot, or stop."
 ---
 
 # AI Problem Framing for AI Practitioners

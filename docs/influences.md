@@ -1,3 +1,8 @@
+---
+title: "The Ideas Behind AI Problem Framing"
+description: "Explore the ideas behind the AI framing method, from Kahneman and Munger to Feynman and Teresa Torres. Turn decision principles into project questions."
+---
+
 # Influences
 
 The framework is not invented from scratch. It borrows from people who thought hard about decisions, failure, and judgment long before AI, and it puts their ideas to work on the specific problem of framing an AI project. These are the thinkers the course leans on, and the one idea it takes from each.

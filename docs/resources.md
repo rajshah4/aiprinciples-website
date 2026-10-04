@@ -1,6 +1,6 @@
 ---
-title: Tools
-description: Free worksheets, cheat sheets, and skills for framing and diagnosing AI projects.
+title: "AI Framing Worksheets, Checklists, and Skills"
+description: "Free worksheets, diagnostic checklists, cheat sheets, and AI skills for framing projects and diagnosing ML, GenAI, and agent systems."
 ---
 
 # Tools

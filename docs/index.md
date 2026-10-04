@@ -1,7 +1,8 @@
 ---
 layout: page
-title: AI Problem Framing
 titleTemplate: aiframer.dev
+title: "AI Problem Framing"
+description: "Frame AI projects, diagnose what breaks, and decide when to persist, pivot, or stop. Explore Rajiv Shah's method, worksheets, and upcoming book."
 ---
 
 <div class="af-home">

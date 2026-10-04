@@ -1,6 +1,6 @@
 ---
-title: Talks
-description: Free talks on AI problem framing, diagnosing AI systems, and reframing.
+title: "AI Problem Framing Talks and Videos"
+description: "Watch free talks by Rajiv Shah on framing AI projects, diagnosing the gap between evals and outcomes, and pressure-testing ideas with AI skills."
 ---
 
 # Talks

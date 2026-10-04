@@ -1,3 +1,8 @@
+---
+title: "AI Problem Framing Workshops for Teams"
+description: "A private, hands-on workshop with Rajiv Shah. Frame your team's AI use cases, diagnose stalled projects, and decide what to build or change."
+---
+
 # Team workshops
 
 **Your AI team ships fast. The projects still don't land.**

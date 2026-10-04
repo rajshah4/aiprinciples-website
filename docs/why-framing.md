@@ -1,3 +1,8 @@
+---
+title: "Why AI Problem Framing Matters"
+description: "See how FlashAttention and a JPMorgan privacy-policy tool changed the question they were solving, and what those examples teach about AI problem framing."
+---
+
 # Why framing matters
 
 The model is rarely the problem. The question is.
