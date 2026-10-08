@@ -9,7 +9,7 @@ Everything here is free, with no email wall. Print the PDFs and bring them to yo
 
 ## The book
 
-[AI Problem Framing for AI Practitioners](/book) is the full method. It's a [free PDF](/downloads/ai-problem-framing-book.pdf) under CC BY-NC 4.0.
+[AI Problem Framing for AI Practitioners](/book) is the full method. It's a [free PDF](https://github.com/rajshah4/ai-framing-skills/releases/download/book-2026-10/ai-problem-framing-book.pdf) under CC BY-NC 4.0.
 
 ## Worksheets and cheat sheets
 

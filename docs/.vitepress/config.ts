@@ -36,6 +36,10 @@ export default defineConfig({
     }
   },
   head: [
+    [
+      "script",
+      { async: "", src: "https://gc.zgo.at/count.js", "data-goatcounter": "https://aiframer.goatcounter.com/count" },
+    ],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     ["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
     [

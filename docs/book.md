@@ -18,7 +18,7 @@ description: "Download Rajiv Shah's free book on framing AI projects, diagnosing
     <p>Over the last few years I've worked hands-on with more than a hundred AI use cases across enterprise, startups, and research. Almost none of the failures were failures of the model. Someone had chosen the wrong problem, or defined success so loosely that nobody could tell we were solving it wrong.</p>
     <p>This book is about that framing layer: how to frame the problem before you build, how to tell whether it's working once it runs, and when to change course.</p>
     <div class="af-btn-row">
-      <a class="af-btn af-btn--primary" href="/downloads/ai-problem-framing-book.pdf">Download the free PDF</a>
+      <a class="af-btn af-btn--primary" href="https://github.com/rajshah4/ai-framing-skills/releases/download/book-2026-10/ai-problem-framing-book.pdf">Download the free PDF</a>
       <a class="af-btn af-btn--ghost" href="/resources">Get the worksheets</a>
     </div>
     <div class="af-fineprint">October 2026 edition · PDF, 10.5 MB · Free under CC BY-NC 4.0</div>
