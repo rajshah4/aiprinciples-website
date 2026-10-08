@@ -2,7 +2,7 @@
 layout: page
 titleTemplate: aiframer.dev
 title: "AI Problem Framing"
-description: "Frame AI projects, diagnose what breaks, and decide when to persist, pivot, or stop. Explore Rajiv Shah's method, worksheets, and upcoming book."
+description: "Frame AI projects, diagnose what breaks, and decide when to persist, pivot, or stop. Explore Rajiv Shah's method, worksheets, and free book."
 ---
 
 <div class="af-home">
@@ -16,7 +16,7 @@ description: "Frame AI projects, diagnose what breaks, and decide when to persis
       <a class="af-btn af-btn--primary" href="/resources#the-ai-framing-worksheet">Start with the worksheet</a>
       <a class="af-btn af-btn--ghost" href="/book">About the book</a>
     </div>
-    <div class="af-fineprint">The book is coming soon · Free under CC BY-NC 4.0</div>
+    <div class="af-fineprint"><a href="/downloads/ai-problem-framing-book.pdf">Download the book</a> · Free under CC BY-NC 4.0</div>
   </div>
   <figure class="sketch">
     <img src="/images/sketches/signal-dashboard.jpg" alt="A hand-drawn instrument panel. The model accuracy gauge reads high with a green check, while the adoption gauge sits at zero with the word crickets underneath." width="1400" height="788">
@@ -48,7 +48,7 @@ description: "Frame AI projects, diagnose what breaks, and decide when to persis
         <li><span class="af-toc__num">Appendix</span><span><strong>The four artifacts.</strong> <span class="af-toc__desc">The one-page documents the method produces, filled in.</span></span></li>
       </ol>
       <div class="af-btn-row">
-        <span class="af-btn af-btn--soon">Coming soon</span>
+        <a class="af-btn af-btn--primary" href="/downloads/ai-problem-framing-book.pdf">Download the free PDF</a>
         <a class="af-btn af-btn--ghost" href="/book">More about the book</a>
       </div>
     </div>

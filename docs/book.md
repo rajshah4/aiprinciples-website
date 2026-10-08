@@ -1,6 +1,6 @@
 ---
 title: "AI Problem Framing for AI Practitioners: The Book"
-description: "Preview Rajiv Shah's upcoming free book on framing AI projects, diagnosing running systems, and deciding when to persist, pivot, or stop."
+description: "Download Rajiv Shah's free book on framing AI projects, diagnosing running systems, and deciding when to persist, pivot, or stop."
 ---
 
 # AI Problem Framing for AI Practitioners
@@ -15,13 +15,13 @@ description: "Preview Rajiv Shah's upcoming free book on framing AI projects, di
     <span class="af-cover__author">Rajiv Shah</span>
   </div>
   <div>
-    <p>Over the last few years I've worked hands-on with more than a hundred AI use cases across enterprise, startups, and research. Almost none of the failures were failures of the model. Most began before anyone picked a model: we had chosen the wrong problem, or defined success so loosely that nobody could tell we were solving it wrong.</p>
-    <p>This book is about that framing layer. It teaches what to build, how to tell whether it's working once it runs, and when to change course.</p>
+    <p>Over the last few years I've worked hands-on with more than a hundred AI use cases across enterprise, startups, and research. Almost none of the failures were failures of the model. Someone had chosen the wrong problem, or defined success so loosely that nobody could tell we were solving it wrong.</p>
+    <p>This book is about that framing layer: how to frame the problem before you build, how to tell whether it's working once it runs, and when to change course.</p>
     <div class="af-btn-row">
-      <span class="af-btn af-btn--soon">Coming soon</span>
+      <a class="af-btn af-btn--primary" href="/downloads/ai-problem-framing-book.pdf">Download the free PDF</a>
       <a class="af-btn af-btn--ghost" href="/resources">Get the worksheets</a>
     </div>
-    <div class="af-fineprint">Coming soon as a free PDF under CC BY-NC 4.0</div>
+    <div class="af-fineprint">October 2026 edition · PDF, 10.5 MB · Free under CC BY-NC 4.0</div>
   </div>
 </div>
 
@@ -45,9 +45,9 @@ The book is in two parts. Everyone reads Part 1, the method, in order. Part 2 is
 
 ## How to read it
 
-If you finish a chapter feeling slower, less confident, or a little annoyed, you're doing it right. The instincts that got you here are trained on years of "I've seen this before, I know what to build." That pattern matching is fast and usually right, but agent projects keep producing problems that look like ones you've solved before and aren't.
+If you finish a chapter feeling slower, less confident, or a little annoyed, you're doing it right. The instincts that got you here are trained on years of "I've seen this before, I know what to build." That pattern matching is fast and usually right, but AI keeps producing problems that look like ones you've solved before and aren't.
 
-The book teaches what to build. The how is well served elsewhere, by frameworks, vendor docs, and the long tail of agent tutorials that appear every week.
+This book isn't a coding guide. The how is well served elsewhere, by frameworks, vendor docs, and the long tail of AI tutorials that appear every week.
 
 ## Pair it with the skills
 
